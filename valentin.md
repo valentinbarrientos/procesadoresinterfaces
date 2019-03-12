@@ -1,5 +1,5 @@
-#INFORME DE PROCESADORES E INTERFACES#
-""Que es un microprocesador""
+# INFORME DE PROCESADORES E INTERFACES
+## Que es un microprocesador
  circuito integrado central más complejo de un sistema informático; a modo de ilustración, se le suele llamar por analogía el «cerebro» de un ordenador.
 Es el encargado de ejecutar los programas, desde el sistema operativo hasta las aplicaciones de usuario; solo ejecuta instrucciones programadas en lenguaje de bajo nivel, realizando operaciones aritméticas y lógicas simples, tales como sumar, restar, multiplicar, dividir, las lógicas binarias y accesos a memoria.
 
@@ -7,14 +7,14 @@ El microprocesador está conectado generalmente mediante un zócalo específico 
 
 La medición del rendimiento de un microprocesador es una tarea compleja, dado que existen diferentes tipos de "cargas" que pueden ser procesadas con diferente efectividad por procesadores de la misma gama. Una métrica del rendimiento es la frecuencia de reloj que permite comparar procesadores con núcleos de la misma familia, siendo este un indicador muy limitado dada la gran variedad de diseños con los cuales se comercializan los procesadores de una misma marca y referencia. Un sistema informático de alto rendimiento puede estar equipado con varios microprocesadores trabajando en paralelo, y un microprocesador puede, a su vez, estar constituido por varios núcleos físicos o lógicos. Un núcleo físico se refiere a una porción interna del microprocesador casi-independiente que realiza todas las actividades de una CPU solitaria, un núcleo lógico es la simulación de un núcleo físico a fin de repartir de manera más eficiente el procesamiento. Existe una tendencia de integrar el mayor número de elementos dentro del propio procesador, aumentando así la eficiencia energética y la miniaturización. Entre los elementos integrados están las unidades de punto flotante, controladores de la memoria RAM, controladores de buses y procesadores dedicados de vídeo.
 
-#Que es un microcontrolador#
+## Que es un microcontrolador
 circuito integrado programable, capaz de ejecutar las órdenes grabadas en su memoria. Está compuesto de varios bloques funcionales, los cuales cumplen una tarea específica. Un microcontrolador incluye en su interior las tres principales unidades funcionales de una computadora: unidad central de procesamiento, memoria y periféricos de entrada/salida.
 
 Algunos microcontroladores pueden utilizar palabras de cuatro bits y funcionan a velocidad de reloj con frecuencias tan bajas como 4 kHz, con un consumo de baja potencia (mW o microwatts). Por lo general, tendrá la capacidad de mantenerse a la espera de un evento como pulsar un botón o de otra interrupción; así, el consumo de energía durante el estado de reposo (reloj de la CPU y los periféricos de la mayoría) puede ser sólo de nanowatts, lo que hace que muchos de ellos sean muy adecuados para aplicaciones con batería de larga duración. Otros microcontroladores pueden servir para roles de rendimiento crítico, donde sea necesario actuar más como un procesador digital de señal (DSP), con velocidades de reloj y consumo de energía más altos.
 
 Cuando es fabricado el microcontrolador, no contiene datos en la memoria ROM. Para que pueda controlar algún proceso es necesario generar o crear y luego grabar en la EEPROM o equivalente del microcontrolador algún programa, el cual puede ser escrito en lenguaje ensamblador u otro lenguaje para microcontroladores; sin embargo, para que el programa pueda ser grabado en la memoria del microcontrolador, debe ser codificado en sistema numérico hexadecimal que es finalmente el sistema que hace trabajar al microcontrolador cuando éste es alimentado con el voltaje adecuado y asociado a dispositivos analógicos y discretos para su funcionamiento.
 
-""soc system on a chip""
+## soc system on a chip
 circuito integrado programable, capaz de ejecutar las órdenes grabadas en su memoria. Está compuesto de varios bloques funcionales, los cuales cumplen una tarea específica. Un microcontrolador incluye en su interior las tres principales unidades funcionales de una computadora: unidad central de procesamiento, memoria y periféricos de entrada/salida.
 
 Algunos microcontroladores pueden utilizar palabras de cuatro bits y funcionan a velocidad de reloj con frecuencias tan bajas como 4 kHz, con un consumo de baja potencia (mW o microwatts). Por lo general, tendrá la capacidad de mantenerse a la espera de un evento como pulsar un botón o de otra interrupción; así, el consumo de energía durante el estado de reposo (reloj de la CPU y los periféricos de la mayoría) puede ser sólo de nanowatts, lo que hace que muchos de ellos sean muy adecuados para aplicaciones con batería de larga duración. Otros microcontroladores pueden servir para roles de rendimiento crítico, donde sea necesario actuar más como un procesador digital de señal (DSP), con velocidades de reloj y consumo de energía más altos.
@@ -23,7 +23,7 @@ Cuando es fabricado el microcontrolador, no contiene datos en la memoria ROM. Pa
 El SoC incluye en el chip todas las funciones necesarias para el dispositivo funcione. En el caso de los smartphones nos encontramos que este SoC está conectado a una batería que se encarga de alimentar a los componentes. Esto hace que los componentes no puedan tener un gran consumo de energía. Para llegar a tener un menor consumo, los componentes deben tener una menor potencia, lo que hace posible que tengan un menor tamaño.
 
 Sin embargo, este no es el único tipo de SoC que encontramos, compañía como AMD e Intel diseñan sus propios sistemas empotrados con sus procesadores, si bien estos SoC no tienen el mismo tamaño que los de los smartphones, también tienen una mayor potencia.
-""sbc""
+## sbc
 Una placa computadora u ordenador de placa reducida (en inglés: Single Board Computer o SBC) es una computadora completa en un sólo circuito. El diseño se centra en un sólo microprocesador con la RAM, E/S y todas las demás características de un computador funcional en una sola tarjeta que suele ser de tamaño reducido, y que tiene todo lo que necesita en la placa base.
 
 Con el desarrollo de la computadora personal hubo un giro lejos de los computadores de una tarjeta, con computadores que tenían una placa base que debía ser conectada a tarjetas de extensión que proveían los puertos seriales, controlador para discos duros, de gráficos y de sonido.
